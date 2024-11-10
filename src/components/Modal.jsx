@@ -27,7 +27,7 @@ export default function Modal({ children, onClose, pos = 'center' }) {
         }}
       >
         <div
-          className='absolute text-[#d9d9d9] portrait:text-[2vh] text-[2.3vh] font-jua portrait:top-[-2vh] top-[-5vh] md:top-[-4.5vh] lg:top-[-5vh]'
+          className='absolute text-[#d9d9d9]  portrait:text-[2vh] portrait:top-[-2vh] portrait:md:text-[1.7vh] text-[2.3vh] font-jua top-[-5vh] md:top-[-4.5vh] lg:top-[-5vh]'
           style={{
             left: '51%',
             opacity: '0.9',
