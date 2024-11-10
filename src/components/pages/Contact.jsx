@@ -27,8 +27,8 @@ const ContactModal = () => {
         },
     }
     return (
-        <div className="md:p-2 max-h-[90%] flex items-center justify-center">
-            <div className=" w-[21rem] h-[13rem]">
+        <div className="md:p-2 max-h-[80vh] flex items-center justify-center">
+            <div className=" w-[20rem] h-[12rem]">
                 <motion.div
                     initial="hidden"
                     animate="visible"
