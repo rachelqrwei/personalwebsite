@@ -10,7 +10,7 @@ import setupScene from './SceneSetup';
 import { applyOrbitControls } from './MouseControls';
 import { applyOutlineEffect } from './OutlineEffect';
 
-import AboutMeModal from './pages/aboutme';
+import AboutMeModal from './pages/AboutMe';
 import ProjectsModal from './pages/Projects';
 import WorkModal from './pages/Work';
 import EducationModal from './pages/Education';
