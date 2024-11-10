@@ -20,7 +20,7 @@ const FolderGrid = () => {
       name: "Portfolio",
       link: '',
       preview: '/images/project-website.png',
-      description: 'Welcome to my website! \n This space is more than just a portfolio — it showcases not only my technical skills but also who I am in an immersive 3D experience. The 3D room you see was modeled by me in Blender, complete with materials, UV painting, and texture baking. I then brought it to the web using Three.js, a tool I learned from scratch, pushing myself to master new skills. \n I designed the layout of each modal in Figma, then transformed it into a fully functional React website with HTML and CSS. Just like how someone\'\s room reflects its inhabitant, this website serves as a glimpse into my learning journey and a creative representation of me. I hope you enjoy your stay!',
+      description: 'Welcome to my website! \n This space is more than just a portfolio — it showcases not only my technical skills but also who I am in an immersive 3D experience. I modeled the entire 3D room you see in Blender from scratch, complete with materials, UV painting, and texture baking. I then brought it to the web using Three.js. \n I designed the layout of each modal in Figma, then transformed it into a fully functional and responsive React website with HTML and CSS. Just like how someone\'\s room reflects its inhabitant, this website serves as a glimpse into my learning journey and a creative representation of me. ',
       thumbnail: '/images/project-website-thumbnail.png',
       madewith: ['Three.js', 'Javascript', 'React', 'TailwindCSS', 'html', 'Framer', 'Figma', 'Blender']
     },
