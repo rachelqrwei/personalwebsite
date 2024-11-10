@@ -117,7 +117,7 @@ const FolderGrid = () => {
           {/* folder front image (hover effect switches to open folder) */}
           <motion.img
             src={folderFront}
-            className="absolute w-full z-20 max-w-[20vw] "
+            className="absolute w-full z-20 max-w-[20vw] user-select: none;" 
             alt="folder front"
             onHoverStart={(e) => (e.target.src = folderFrontOpen)}
             onHoverEnd={(e) => (e.target.src = folderFront)}
