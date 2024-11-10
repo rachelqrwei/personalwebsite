@@ -1,7 +1,7 @@
 // LoadingScreen.jsx
 import React from 'react';
 import 'ldrs/trefoil'; 
-import 'ldrs/linewobble'; 
+import 'ldrs/lineWobble'; 
 import 'ldrs/waveform'; 
 
 const LoadingScreen = () => {     
