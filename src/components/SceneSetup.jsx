@@ -9,7 +9,7 @@ function setupScene(mountRef, setLoading) {
     //camera
     const camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.1, 1000);
         if (window.innerWidth <= 768) {  // Adjust this threshold as needed for your mobile breakpoint
-            camera.position.set(26, 34, 36);  // Mobile-specific camera position
+            camera.position.set(23, 31, 33);  // Mobile-specific camera position
         } else {
             camera.position.set(15, 18, 19);  // Desktop camera position
         }
