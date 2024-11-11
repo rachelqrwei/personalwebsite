@@ -8,7 +8,11 @@ function setupScene(mountRef, setLoading) {
     const scene = new THREE.Scene();
     //camera
     const camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.1, 1000);
-    camera.position.set(15, 18, 19);// set camera position and controls
+        if (window.innerWidth <= 768) {  // Adjust this threshold as needed for your mobile breakpoint
+            camera.position.set(32, 38, 40);  // Mobile-specific camera position
+        } else {
+            camera.position.set(15, 18, 19);  // Desktop camera position
+        }
     camera.rotation.y = THREE.MathUtils.degToRad(30); // rotate 30 degrees to the left
     //renderer
     const renderer = new THREE.WebGLRenderer({ antialias: false });
