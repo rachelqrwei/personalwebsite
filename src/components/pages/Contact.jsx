@@ -43,7 +43,7 @@ const ContactModal = () => {
                             <p className="text-md text-[#52483b]">CS/BBA Student at UW/WLU.</p>
                             <div className="mt-4">
                                 <p className="text-md text-[#52483b]">rachelqingranwei@gmail.com</p>
-                                <p className="text-md text-[#52483b]">+1 (647) 643-8802</p>
+                               
                                 <p className="text-md text-[#52483b]">www.rachelqrwei.ca</p>
                             </div>
                         </div>
