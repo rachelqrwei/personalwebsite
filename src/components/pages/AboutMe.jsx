@@ -49,7 +49,7 @@ const AboutMeModal = () => {
                     <div className={`absolute ml-[11.8rem] mt-[9.1rem] w-[6.3rem] h-[7.7rem] bg-[url('/images/aboutme-art.png')] ${imageBoxShadow}`}></div>
                     <div className={`absolute ml-[2.6rem] mt-[17.7rem] w-[6rem] h-[5.5rem] bg-[url('/images/aboutme-cat.png')] ${imageBoxShadow}`}></div>
                     <div className={`absolute ml-[7.8rem] mt-[23.8rem] w-[11.5rem] h-[7rem] bg-[url('/images/aboutme-concert.png')] ${imageBoxShadow}`}></div>
-                    <div className={`absolute mt-[24.7rem] w-[1.9rem] h-[1.8rem] bg-[url('/images/aboutme-star2.png')] pointer-events-none bg-center bg-contain z-50`}></div>
+                    <div className={`absolute mt-[24.7rem] ml-[-0.8rem] w-[1.9rem] h-[1.8rem] bg-[url('/images/aboutme-star2.png')] pointer-events-none bg-center bg-contain z-50`}></div>
 
                 </div>
             </div>
