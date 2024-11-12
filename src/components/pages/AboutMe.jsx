@@ -25,7 +25,7 @@ const AboutMeModal = () => {
                         overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-[#837b69] scrollbar-track-transparent"
         >
             <div className="portrait:h-[70vh] landscape:h-[60vh] landscape:md:h-[78vh] mr-2 ">
-                <div className="relative w-[24rem] h-[36rem] bg-center rounded-[3px] p-5 bg-[url('/images/papertexture-22.png')] bg-cover">
+                <div className="relative w-[22.5rem] h-[36rem] bg-center rounded-[3px] p-5 bg-[url('/images/papertexture-22.png')] bg-cover">
                     {/* title */}
                     <div className='absolute text-[18px] text-[#634838] font-jua ml-[11rem] mt-[1.5rem] '>
                         about me !!
