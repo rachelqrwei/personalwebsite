@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "npm cache clean --force && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:worker": "cloudflare",
+    "dev:worker": "wrangler dev --port 8771",
+    "preview:worker": "npm run build:worker && npm run dev:worker",
+    "deploy:worker": "npm run build:worker && wrangler deploy"
   },
   "dependencies": {
     "@headlessui/react": "^2.1.10",
@@ -29,6 +33,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
+    "@opennextjs/cloudflare": "^0.2.1",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
@@ -40,6 +45,7 @@
     "globals": "^15.9.0",
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.10",
-    "vite": "^5.4.1"
+    "vite": "^5.4.1",
+    "wrangler": "^3.86.1"
   }
 }
