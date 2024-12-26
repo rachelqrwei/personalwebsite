@@ -18,20 +18,20 @@ function EducationModal() {
         {
             name: "Rachel Wei",
             school: "University of Waterloo",
-            id: "00000000",
+            id: "21120000",
             image: '/images/education-uw.png',
             schoollogo: '/images/education-uw-logo.png',
             description: "Bachelor's of Computer Science.",
-            graduationYear: "2024-2029"
+            graduationYear: "2024-Present"
         },
         {
             name: "Rachel Wei",
             school: "Wilfrid Laurier University",
-            id: "00000000",
+            id: "16910000",
             image: '/images/education-wlu.jpg',
             schoollogo: '/images/education-wlu-logo.jpg',
             description: "Bachelor's of Business Administration.",
-            graduationYear: "2024-2029"
+            graduationYear: "2024-Present"
         },
         {
             name: "Rachel Wei",
