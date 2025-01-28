@@ -193,8 +193,8 @@ const FolderGrid = () => {
         <div className="absolute bg-transparent flex justify-start items-start z-50 ">
           <div
             className="
-              portrait:max-w-[85%] portrait:max-h-[80%] portrait:mt-[1%] portrait:ml-[-4vw] 
-              max-w-[100%] ml-[-6%] mt-[-5%] max-h-[10%]
+              portrait:max-w-[80%] portrait:max-h-[80%] portrait:mt-[1%] portrait:ml-[-2vw] 
+              max-w-[100%] ml-[-2%] mt-[-5%] max-h-[10%]
               md:max-w-[95%] md:ml-[-4%] md:mt-[0%] md:max-h-[100%] 
               bg-[#d1cbbd] mb-[22%] pl-4 pb-3 pt-2 pr-2 rounded-lg shadow-lg flex flex-col shadow-m"
           >
