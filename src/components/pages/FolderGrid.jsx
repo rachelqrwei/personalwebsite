@@ -195,8 +195,8 @@ const FolderGrid = () => {
             className="
               portrait:max-w-[85%] portrait:max-h-[80%] portrait:mt-[1%] portrait:ml-[-4vw] 
               max-w-[100%] ml-[-6%] mt-[-5%] max-h-[10%]
-              md:max-w-[95%] md:ml-[-5%] md:mt-[0%] md:max-h-[100%] 
-              bg-[#d1cbbd] mb-[22%] pl-4 pb-4 pt-2 pr-2 rounded-lg shadow-lg flex flex-col shadow-m"
+              md:max-w-[95%] md:ml-[-4%] md:mt-[0%] md:max-h-[100%] 
+              bg-[#d1cbbd] mb-[22%] pl-4 pb-3 pt-2 pr-2 rounded-lg shadow-lg flex flex-col shadow-m"
           >
             <div className="flex flex-row justify-between sticky h-[2%] bg-[#d1cbbd] top-0">
               <h2 className="portrait:text-[3vh] text-[4vh] text-[#393229] font-bold mt-1">{selectedProject.name}</h2>
@@ -235,10 +235,10 @@ const FolderGrid = () => {
                 </div>
               </div>
             </div>
-            <div className="text-right">
+            <div className="text-right mt-2 text-[2vh] font-bold underline">
               <a
                 href={selectedProject.link}
-                className="mt-2 ml-4 text-[2vh] font-bold underline text-[#393229] hover:text-[#52483b] transition-colors"
+                className=" text-[#393229] hover:text-[#52483b]"
                 target="_blank"
                 rel="noopener noreferrer"
               >
