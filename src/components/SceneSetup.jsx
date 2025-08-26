@@ -11,7 +11,7 @@ function setupScene(mountRef, setLoading) {
         if (window.innerWidth <= 768) {  // Adjust this threshold as needed for your mobile breakpoint
             camera.position.set(23, 31, 33);  // Mobile-specific camera position
         } else {
-            camera.position.set(15, 18, 19);  // Desktop camera position
+            camera.position.set(15, 15, 25);  // Desktop camera position
         }
     camera.rotation.y = THREE.MathUtils.degToRad(30); // rotate 30 degrees to the left
     //renderer

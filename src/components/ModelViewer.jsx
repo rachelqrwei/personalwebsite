@@ -16,6 +16,7 @@ import WorkModal from './pages/Work';
 import EducationModal from './pages/Education';
 import ContactModal from './pages/Contact';
 import LoadingScreen from './LoadingScreen';
+import MusicPlayer from './MusicPlayer';
 const images = [
   '/images/aboutme-art.png',
   '/images/aboutme-baby.png',
@@ -157,6 +158,10 @@ function ModelViewer() {
       {loading && <LoadingScreen />}
       {isModalOpen && <Modal onClose={() => setIsModalOpen(false)} pos={pos}>{modalText}</Modal>}
       <div ref={mountRef} style={{ width: '100%', height: '100%' }}></div>
+      <MusicPlayer />
+      {/* <div className="fixed top-4 right-4 z-50 text-[#52483b] text-sm font-medium opacity-80 hover:opacity-100 transition-opacity duration-300">
+        made with love by rachel wei!
+      </div> */}
     </>
   );
 }

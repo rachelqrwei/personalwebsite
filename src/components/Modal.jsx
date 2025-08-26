@@ -15,6 +15,7 @@ export default function Modal({ children, onClose, pos = 'center' }) {
         display: 'flex',
         justifyContent: 'center',
         alignItems: pos,
+        zIndex: 10000,
       }}
     >
 

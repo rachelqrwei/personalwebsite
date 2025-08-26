@@ -24,7 +24,7 @@ const WorkModal = () => {
     transition={{ duration: 0.08, ease: 'easeOut' }}
     className="absolute w-full h-full"
   >
-    <a href="/images/F24_Resume.pdf" target="_blank" rel="noopener noreferrer">
+    <a href="/images/Resume_W26.pdf" target="_blank" rel="noopener noreferrer">
     <motion.img
       src='/images/resume.png'
       className="absolute rounded-sm mt-[4vh] portrait:ml-[10%] ml-[12vw] landscape:ml-[3vw] md:mt-[4vh] md:ml-[4vw] lg:mt-[5vh] lg:ml-[3vw] max-h-[53vh] md:max-h-[62vh] lg:max-h-[70vh] object-cover"

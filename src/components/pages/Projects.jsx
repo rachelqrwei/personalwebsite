@@ -43,7 +43,7 @@ const ProjectsModal = () => {
                                 {/* rightcol-top*/}
                                 <div className='ml-[2.5px] w-[99.7%] h-[9%] bg-[#403B37] rounded-tr-xl flex flex-row content-start items-center'>
                                     <div className='portrait:w-[60%] w-[40%] h-[63%] bg-[#35322E] ml-2 rounded-md'>
-                                        <p className='ml-2 m-y-2 text-[#d9d9d9] text-[2vh] md:text-[2.5vh]'>desktop &gt; my-projects</p>
+                                        <p className='ml-2 m-y-2 text-[#d9d9d9] text-[2vh] md:text-[2vh]'>desktop &gt; my-projects</p>
                                     </div>
                                 </div>
                             {/* rightcol-bot (screen) */}

@@ -21,8 +21,8 @@ function applyPostProcessing(renderer, scene, camera, outlinedMeshes) {
         outlinePass.edgeStrength = 1;
         outlinePass.edgeGlow = 1;
         outlinePass.edgeThickness = 0.1;
-        outlinePass.visibleEdgeColor.set('#ffe8a1');
-        outlinePass.hiddenEdgeColor.set('#22090A');
+        outlinePass.visibleEdgeColor.set('#FFDE85');
+        outlinePass.hiddenEdgeColor.set('#755D19');
         outlinePass.blending = THREE.AdditiveBlending;
     composer.addPass(outlinePass);
 

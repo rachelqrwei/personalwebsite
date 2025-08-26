@@ -159,7 +159,7 @@ const FolderGrid = () => {
             onHoverStart={(e) => (e.target.src = folderFrontOpen)}
             onHoverEnd={(e) => (e.target.src = folderFront)}
           />
-          <p className=" portrait:mt-[99%] portrait:text-[1.8vh] text-[#DED9CF]  text-[2.5vh] mt-[93%]  ">
+          <p className=" portrait:mt-[99%] portrait:text-[1.8vh] text-[#DED9CF]  text-[2vh] mt-[93%]  ">
             {project.name}
           </p>
         </motion.div>
