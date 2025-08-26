@@ -54,7 +54,7 @@ function EducationModal() {
         >
             <div className="max-[800px]:max-h-[58vh] 
             landscape:max-w-[50vw] landscape:md:mt-[0vh] 
-            md:max-h-[83vh] lg:w-[33vw] lg:max-h-[70vh]  overflow-x-hidden overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-[#837b69] scrollbar-track-transparent">
+            md:max-h-[83vh] md:max-w-[50vw] lg:w-[32vw] lg:max-h-[70vh] xl:w-[28vw] 2xl:w-[25vw] overflow-x-hidden overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-[#837b69] scrollbar-track-transparent">
                 {students.map((student, index) => (
                     <div key={index} className="  bg-[url('/images/papertexture.jpg')] bg-cover bg-center rounded-xl shadow-lg mb-3 ">
                         <div className=" pt-6 pb-8 pl-6 pr-6 flex">
